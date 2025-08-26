@@ -1,0 +1,15 @@
+{
+	"name": "postgres-connector",
+	"config": {
+	"connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+	"database.hostname": "postgres",
+	"database.port": "5432",
+	"database.user": "cdc_user",
+	"database.password": "cdc_password",
+	"database.dbname": "cdc_db",
+	"database.server.name": "postgres_server",
+	"topic.prefix": "cdc",
+	"plugin.name": "pgoutput",
+	"slot.name": "debezium_slot"
+	}
+}
