@@ -22,7 +22,7 @@ The pipeline captures changes (insert/update/delete) from the PostgreSQL databas
 
 ## Features Implemented
 
-- Captures inserts, updates, and deletes from the `orders` table.  
+- Captures inserts, updates, and deletes from the tables.  
 - Streams events in JSON format to Redpanda.  
 - Java consumer prints CDC events in real-time.  
 
